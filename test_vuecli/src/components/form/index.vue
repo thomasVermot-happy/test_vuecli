@@ -29,6 +29,8 @@
 <script>
 import textinput from './field/TextInput'
 import fieldrenderer from './FieldRenderer'
+// import VueFormGenerator from 'vue-form-generator'
+// import 'vue-form-generator/dist/vfg.css' // optional full css additions
 
 export default {
   name: 'formview',

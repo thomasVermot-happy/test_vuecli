@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import store from './store'
 
+require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -12,6 +14,8 @@ new Vue({
   el: '#app',
   router,
   store,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })

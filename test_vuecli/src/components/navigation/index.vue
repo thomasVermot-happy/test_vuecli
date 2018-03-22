@@ -7,6 +7,12 @@
       <li>
         <router-link to="/">HelloWorld</router-link>
       </li>
+      <li>
+        <router-link to="/contact">CONTACT</router-link>
+      </li>
+      <li>
+        <router-link to="/contactb">CONTACT B</router-link>
+      </li>
     </ul>
   </div>
 </template>
