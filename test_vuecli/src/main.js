@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
+import barCode from './components/customField/barCode'
 
 require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
 
 Vue.config.productionTip = false
+Vue.component('fieldBarcode', barCode)
 
 /* eslint-disable no-new */
 new Vue({
