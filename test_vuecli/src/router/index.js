@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Form from '@/components/form/index'
 import Contact from '@/components/contact/index'
 import ContactB from '@/components/contactb/index'
+import UserView from '@/components/user/view'
+import UserEdit from '@/components/user/edit'
 
 Vue.use(Router)
 
@@ -28,6 +30,16 @@ export default new Router({
       path: '/contactb',
       name: 'ContactB',
       component: ContactB
+    },
+    {
+      path: '/user/:id/view',
+      name: 'User',
+      component: UserView
+    },
+    {
+      path: '/user/:id/edit',
+      name: 'User Edit',
+      component: UserEdit
     }
   ]
 })

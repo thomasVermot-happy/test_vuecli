@@ -13,6 +13,12 @@
       <li>
         <router-link to="/contactb">CONTACT B</router-link>
       </li>
+      <li>
+        <router-link to="/user/1/view">user</router-link>
+      </li>
+      <li>
+        <router-link to="/user/1/edit">userEdit</router-link>
+      </li>
     </ul>
   </div>
 </template>
