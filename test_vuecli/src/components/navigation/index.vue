@@ -18,6 +18,30 @@
 </template>
 
 <style scoped>
+  .navigation {
+
+  }
+
+  .navigation ul {
+    display: block;
+    list-style-type: none;
+    background: orange;
+  }
+
+  .navigation li {
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .navigation a {
+    color: white;
+  }
+
+  .navigation a:hover {
+    color: black;
+  }
 </style>
 
 <script>
